@@ -1,0 +1,28 @@
+.container{
+  max-width: 96rem;
+  margin: 0 auto;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+}
+.content h1{
+  font-size: 4rem;
+  color: var(--title);
+}
+.content button{
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  background: var(--bg-button);
+}
+.content p{
+  width: 35rem;
+  text-align: center;
+  color: var(--subtitle);
+  padding-top: 1rem;
+}

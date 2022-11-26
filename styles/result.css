@@ -1,0 +1,20 @@
+.result{
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+}
+.result-infos{
+  align-self: center;
+  padding: 2rem;
+}
+.result-infos h2{
+  text-align: center;
+
+}
+.result-infos p{
+  font-size: 1.45rem;
+}
+#img-film{
+  justify-self: center;
+  align-self: center;
+  border-radius: 6px;
+}
